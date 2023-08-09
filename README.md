@@ -20,7 +20,7 @@
 ## Installation
 1. Clone the repository to your local machine and install
    ```bash
-   git clone https://github.com/Rakesh-puli/Helix-sense-application.git
+   git clone https://github.com/Rakesh-puli/REACT-NEW-FILE.git
    cd Helix-sense-application
    npm install
    npm start
@@ -28,11 +28,11 @@
 Access the application in your browser at http://localhost:3000 or the specified port.
 
 ## Technologies Used
-React js 
-node js 
-Keycloak 
-Typescript
-Material UI 
+- React js 
+- node js 
+- Keycloak 
+- Typescript
+- Material UI 
 
 
 ## Contributing
