@@ -20,7 +20,7 @@
 ## Installation 
 1. Clone the repository to your local machine and install
    ```bash
-   git clone https://github.com/Rakesh-puli/REACT-NEW-FILE.git
+   git clone https://github.com/Helix-app-automation-organization/NEW_UI_Helix_app.git
    cd Helix-sense-application
    npm install
    npm start
