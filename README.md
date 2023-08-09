@@ -25,7 +25,7 @@
    npm install
    npm start
 
-Access the application in your browser at http://localhost:3000 or the specified port.
+Access the application in your browser at http://localhost:3010 or the specified port.
 
 ## Technologies Used
 - React js 
