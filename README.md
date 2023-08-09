@@ -17,7 +17,7 @@
 - create the sensor for each application
 - Finally generate the certificate with JSON formate
 
-## Installation
+## Installation 
 1. Clone the repository to your local machine and install
    ```bash
    git clone https://github.com/Rakesh-puli/REACT-NEW-FILE.git
@@ -32,7 +32,58 @@ Access the application in your browser at http://localhost:3000 or the specified
 - node js 
 - Keycloak 
 - Typescript
-- Material UI 
+- Material UI
+
+## Third Party packeages in React js
+- node gyp - unzip the packeages 
+- Formik -  for form submission
+- antd -for design purpose
+
+## Folder structure 
+src/
+|-- assets/
+|   |-- images/
+|   |-- styles/
+|       |-- global.css
+|
+|-- components/
+|   |-- Header/
+|       |-- Header.tsx
+|       |-- Header.css
+|   |-- Sidebar/
+|       |-- Sidebar.tsx
+|       |-- Sidebar.css
+|--  pages/
+|     |-- Customers/
+|        |-- Customers.tsx
+|        |-- Customers.css
+|
+|    |-- Applications/
+|        |-- Applications.tsx
+|        |-- Applications.css
+|
+|    |-- Configuration/
+|        |-- Configuration.tsx
+|        |-- Configuration.css
+|
+|    |-- Sensors/
+|        |-- Sensors.tsx
+|        |-- Sensors.css
+|
+|    |-- Permissions/
+|        |-- Permissions.tsx
+|        |-- Permissions.css
+|
+|    |-- Dashboard/
+|        |-- Dashboard.tsx
+|        |-- Dashboard.css
+|
+|-- utils/
+|   |-- api.ts
+|
+|-- App.tsx
+|-- index.tsx
+
 
 
 ## Contributing
