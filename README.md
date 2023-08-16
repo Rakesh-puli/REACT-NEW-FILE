@@ -108,13 +108,14 @@ icons : https://react-icons.github.io/react-icons/
 
 ## Technologies Used
 - React
+- Keycloak 
 - React Router
 - State management (context API)
 - CSS frameworks (Material-UI)
 
 ### Third Party packeages in React js
 - node gyp - unzip the packeages 
-- Formik -  for form submission
+- Formik -  for form submission & validation
 - antd -for design purpose
 
 ## Folder structure   
@@ -163,6 +164,8 @@ icons : https://react-icons.github.io/react-icons/
 |-- App.tsx
 |-- index.tsx
   ```
+
+[https://user-images.githubusercontent.com/111567733/259751506-8ddfa9b9-0335-49a2-8b41-6d5bfc362aed.png]
 
 
 
