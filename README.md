@@ -118,14 +118,12 @@ As the number of IoT sensors increases or new rooms are added, the system's arch
 
 
 ## Style Guide 
-```
-Primary: `#1A9EE0`
-Secondary: `#6C757D`
-Background: `#ffffff`
-Text: `#FFFFFF`
-primary-font: `Suisse Intl`
-secondary-font: `monopolice`
-```
+- Primary: `#1A9EE0`
+- Secondary: `#6C757D`
+- Background: `#ffffff`
+- Text: `#FFFFFF`
+- primary-font: `Suisse Intl`
+- secondary-font: `monopolice`
 icons : https://react-icons.github.io/react-icons/
 
 ## Technologies Used
