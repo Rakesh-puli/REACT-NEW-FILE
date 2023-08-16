@@ -95,6 +95,7 @@ export default keycloak;
 
 
 ## Style Guide 
+```
 Primary: `#1A9EE0`
 Secondary: `#6C757D`
 Background: `#ffffff`
@@ -102,6 +103,7 @@ Text: `#FFFFFF`
 primary-font: `Suisse Intl`
 secondary-font: `monopolice`
 icons : https://react-icons.github.io/react-icons/
+```
 
 ## Technologies Used
 - React
@@ -169,4 +171,4 @@ Sai Rakesh Puli  : git - Rakesh-puli
  
 
 ## License
-Sai Kumar Vasamsetti email:Rakesh.Puli@tynybay.com
+Sai Rakesh Puli email:  Rakesh.puli@tynybay.com
