@@ -60,6 +60,7 @@ Click Save.
 1. Install Required Packages: In your React project directory, install this package for integrating Keycloak:
 ``` npm install keycloak-js @react-keycloak/web. ```
 2. Create Keycloak Configuration: Create a file named keycloak.js in your project's source directory.
+   
    `import Keycloak from 'keycloak-js'
    const keycloakConfig = {
       url: 'YOUR_KEYCLOAK_REALM_URL',
@@ -93,7 +94,7 @@ export default keycloak;
 - antd -for design purpose
 
 ## Folder structure       ``` 
-src/
+`src/
 |-- assets/
 |   |-- images/
 |   |-- styles/
@@ -135,7 +136,7 @@ src/
 |   |-- api.ts
 |
 |-- App.tsx
-|-- index.tsx ```
+|-- index.tsx `
 
 
 
