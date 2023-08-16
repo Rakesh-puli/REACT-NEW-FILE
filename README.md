@@ -164,8 +164,8 @@ icons : https://react-icons.github.io/react-icons/
 |-- App.tsx
 |-- index.tsx
   ```
-
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://user-images.githubusercontent.com/111567733/259751506-8ddfa9b9-0335-49a2-8b41-6d5bfc362aed.png)
+Application Architecture
+![.](https://user-images.githubusercontent.com/111567733/259751506-8ddfa9b9-0335-49a2-8b41-6d5bfc362aed.png)
 
 
 ## Contributing
