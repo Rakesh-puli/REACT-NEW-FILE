@@ -31,8 +31,6 @@ Keycloak is an open-source Identity and Access Management (IAM) solution that pr
 
 - **Authorization and Role-Based Access Control**: Keycloak provides role-based access control, allowing you to define fine-grained permissions for different user roles.
 
-- **User Federation**: You can integrate with external identity providers (such as LDAP, Active Directory, or social logins) to manage users centrally.
-
 - **Token-Based Security**: Keycloak issues JSON Web Tokens (JWTs) that can be used to securely transmit user information and permissions between services.
 
 - **Client-Side Adapters**: Keycloak offers client-side adapters for various programming languages and frameworks, making it easy to integrate authentication into your applications.
@@ -40,6 +38,20 @@ Keycloak is an open-source Identity and Access Management (IAM) solution that pr
 ### Why Use Keycloak
 
 Keycloak simplifies the process of adding authentication and authorization to your applications, saving development time and ensuring best practices in security. By leveraging Keycloak, you can focus on building your application's core features while leaving the complex aspects of security to the experts.
+
+## Installation and Authentication Setup with Keycloak
+Download Keycloak: Visit the [Keycloak Download] page and download the latest version of Keycloak.
+
+Extract Keycloak: Extract the downloaded archive to a directory of your choice.
+
+Start Keycloak: Navigate to the extracted directory and run Keycloak using the following command:
+
+sh
+Copy code
+```bin/standalone.sh
+This will start the Keycloak server.
+
+Access Keycloak Admin Console: Open your web browser and navigate to http://localhost:8080/auth/admin. This is the Keycloak Admin Console where you will configure your realm, clients, roles, and more.
 
 ## Features
 
