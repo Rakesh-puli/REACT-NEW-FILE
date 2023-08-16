@@ -79,15 +79,15 @@ Click Save.
 ## Usage
 1. The HelixSense user interface provides a user-friendly environment for sensor
 configuration. Here's how you can configure sensors:
- • Log in to the HelixSense platform using your credentials.
- • Customers:
+ -  Log in to the HelixSense platform using your credentials.
+ -  **Customers**:
    This section might display a list of customers, their information, and possibly allow users to perform actions related to customers, such as viewing details 
    or managing customer data.
- • Configurations:
+ -  **Configurations**:
    The configurations section could include Sensor code and Sensor Type  can be configure for your application. 
- • Applications:
+ -  **Applications**:
    The applications section could involve displaying a list of installed applications, We can Create the application and  give access also.  
- • Sensors:
+ -  **Sensors**:
    In the sensors section, you might display list  sensors, their respective Applications. we can add the sensor for each application.
 
 ## Features
