@@ -5,9 +5,8 @@
 HelixSense is an innovative project that aims to revolutionize the way sensor configurations are implemented in electrical systems. In a rapidly advancing technological landscape, the need for efficient and intelligent solutions for managing electrical devices and systems is paramount.
 
 ## Table of Contents
-
-- [Features](#features)
 - [Installation](#installation)
+- [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
@@ -24,10 +23,9 @@ HelixSense is an innovative project that aims to revolutionize the way sensor co
 1. Clone the repository to your local machine and install
    ```bash
    git clone https://github.com/Helix-app-automation-organization/NEW_UI_Helix_app.git
-   cd Helix-sense-application
+   cd NEW_UI_Helix_app
    npm install
-   npm start
-
+  
 Access the application in your browser at http://localhost:3010 or the specified port.
 
 ## Technologies Used
