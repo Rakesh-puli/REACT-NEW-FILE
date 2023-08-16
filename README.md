@@ -65,7 +65,8 @@ Click Save.
       url: 'YOUR_KEYCLOAK_REALM_URL',
       realm: 'YOUR_REALM_NAME',
       clientId: 'YOUR_CLIENT_ID',
-};
+
+};```
 const keycloak = new Keycloak(keycloakConfig);
 export default keycloak;
 
