@@ -40,13 +40,13 @@ Keycloak is an open-source Identity and Access Management (IAM) solution that pr
 Keycloak simplifies the process of adding authentication and authorization to your applications, saving development time and ensuring best practices in security. By leveraging Keycloak, you can focus on building your application's core features while leaving the complex aspects of security to the experts.
 
 ## Installation and Authentication Setup with Keycloak
-# Step 1: Install Keycloak
+### Step 1: Install Keycloak
 1. Download Keycloak: Visit the [Keycloak Download](https://www.keycloak.org/documentation.html) page and download the latest version of Keycloak.
 2. Extract Keycloak: Extract the downloaded archive to a directory of your choice.
 3. Access Keycloak Admin Console: Open your web browser and navigate to  http://localhost:8080/auth/admin. This is the Keycloak Admin Console where you will configure your realm, clients, roles, and more.
 
 
-# Step 2: Configure Keycloak Realm
+### Step 2: Configure Keycloak Realm
 Login: Log in to the Keycloak Admin Console using the default admin credentials:
 Username: admin
 Password: admin
@@ -56,22 +56,24 @@ Give your client a name.
 Set the Client Protocol to openid-connect.
 Click Save.
 
-# Step 3: Configure Your React App
+### Step 3: Configure Your React App
 1. Install Required Packages: In your React project directory, install this package for integrating Keycloak:
 ``` npm install keycloak-js @react-keycloak/web. ```
 2. Create Keycloak Configuration: Create a file named keycloak.js in your project's source directory.
-```import Keycloak from 'keycloak-js';
-
-const keycloakConfig = {
-  url: 'YOUR_KEYCLOAK_REALM_URL',
-  realm: 'YOUR_REALM_NAME',
-  clientId: 'YOUR_CLIENT_ID',
-}; ```
-
+```import Keycloak from 'keycloak-js'
+   const keycloakConfig = {
+      url: 'YOUR_KEYCLOAK_REALM_URL',
+      realm: 'YOUR_REALM_NAME',
+      clientId: 'YOUR_CLIENT_ID',
+};
 const keycloak = new Keycloak(keycloakConfig);
-
 export default keycloak;
-## Features
+
+## Usage
+
+
+
+### Features
 
 - Customer registration and authentication through Keyclock
 - create the application 
@@ -80,11 +82,10 @@ export default keycloak;
 - Finally generate the certificate with JSON formate
 
 ## Technologies Used
-- React js 
-- node js 
-- Keycloak 
-- Typescript
-- Material UI
+- React
+- React Router
+- State management (Context)
+- CSS frameworks (Material-UI)
 
 ## Third Party packeages in React js
 - node gyp - unzip the packeages 
