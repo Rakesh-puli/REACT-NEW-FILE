@@ -77,8 +77,8 @@ Click Save.
    export default keycloak
     ```
 ## Usage
-1. The HelixSense user interface provides a user-friendly environment for sensor
-configuration. Here's how you can configure sensors:
+  The HelixSense user interface provides a user-friendly environment for sensor
+  configuration. Here's how you can configure sensors:
  -  Log in to the HelixSense platform using your credentials.
  -  **Customers**:
    This section might display a list of customers, their information, and possibly allow users to perform actions related to customers, such as viewing details 
