@@ -93,8 +93,8 @@ export default keycloak;
 - Formik -  for form submission
 - antd -for design purpose
 
-## Folder structure       ``` 
-`src/
+## Folder structure   
+``src/
 |-- assets/
 |   |-- images/
 |   |-- styles/
@@ -136,7 +136,7 @@ export default keycloak;
 |   |-- api.ts
 |
 |-- App.tsx
-|-- index.tsx `
+|-- index.tsx ``
 
 
 
