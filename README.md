@@ -40,15 +40,37 @@ Keycloak is an open-source Identity and Access Management (IAM) solution that pr
 Keycloak simplifies the process of adding authentication and authorization to your applications, saving development time and ensuring best practices in security. By leveraging Keycloak, you can focus on building your application's core features while leaving the complex aspects of security to the experts.
 
 ## Installation and Authentication Setup with Keycloak
-Download Keycloak: Visit the [Keycloak Download](https://www.keycloak.org/documentation.html) page and download the latest version of Keycloak.
-Extract Keycloak: Extract the downloaded archive to a directory of your choice.
-Start Keycloak: Navigate to the extracted directory and run Keycloak using the following command:
-Copy code
-\```bin/standalone.sh
-This will start the Keycloak server.
+# Step 1: Install Keycloak
+1. Download Keycloak: Visit the [Keycloak Download](https://www.keycloak.org/documentation.html) page and download the latest version of Keycloak.
+2. Extract Keycloak: Extract the downloaded archive to a directory of your choice.
+3. Access Keycloak Admin Console: Open your web browser and navigate to  http://localhost:8080/auth/admin. This is the Keycloak Admin Console where you will configure your realm, clients, roles, and more.
 
-Access Keycloak Admin Console: Open your web browser and navigate to  http://localhost:8080/auth/admin. This is the Keycloak Admin Console where you will configure your realm, clients, roles, and more.
 
+# Step 2: Configure Keycloak Realm
+Login: Log in to the Keycloak Admin Console using the default admin credentials:
+Username: admin
+Password: admin
+Create a Realm: Click on the Add realm button to create a new realm for your application. Give it a name and save.
+Create a Client: Inside your newly created realm, go to the Clients tab and click Create.
+Give your client a name.
+Set the Client Protocol to openid-connect.
+Click Save.
+
+# Step 3: Configure Your React App
+1. Install Required Packages: In your React project directory, install this package for integrating Keycloak:
+``` npm install keycloak-js @react-keycloak/web. ```
+2. Create Keycloak Configuration: Create a file named keycloak.js in your project's source directory.
+```import Keycloak from 'keycloak-js';
+
+const keycloakConfig = {
+  url: 'YOUR_KEYCLOAK_REALM_URL',
+  realm: 'YOUR_REALM_NAME',
+  clientId: 'YOUR_CLIENT_ID',
+}; ```
+
+const keycloak = new Keycloak(keycloakConfig);
+
+export default keycloak;
 ## Features
 
 - Customer registration and authentication through Keyclock
