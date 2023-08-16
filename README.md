@@ -72,11 +72,10 @@ Click Save.
       url: 'http://13.213.201.186:8080/auth/',
       realm: 'Dashboard',
       clientId: 'React-app',
-} 
-const keycloak = new Keycloak(keycloakConfig);
-export default keycloak 
-```
-
+   } 
+   const keycloak = new Keycloak(keycloakConfig);
+   export default keycloak
+    ```
 ## Usage
 
 
