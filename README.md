@@ -95,7 +95,6 @@ configuration. Here's how you can configure sensors:
 - **Sensor Data Collection**:
 IoT sensors placed in different rooms detect motion, light levels, and temperature. These sensors continuously collect data and transmit it wirelessly to a central data hub.
 -  **Data Processing**:
-
 The central hub aggregates and processes the incoming sensor data. It analyzes motion patterns, light levels, and temperature changes to determine occupancy status and environmental conditions.
 -  **Decision Logic**:
 Based on the processed sensor data, the system's decision-making logic determines whether a room is occupied, the level of lighting required, and the optimal temperature settings.
