@@ -92,11 +92,23 @@ configuration. Here's how you can configure sensors:
 
 ## Features
 
-- Customer registration and authentication through Keyclock
-- create the application 
-- create the sensor configuration 
-- create the sensor for each application
-- Finally generate the certificate with JSON formate
+- **Sensor Data Collection**:
+IoT sensors placed in different rooms detect motion, light levels, and temperature. These sensors continuously collect data and transmit it wirelessly to a central data hub.
+-  **Data Processing**:
+
+The central hub aggregates and processes the incoming sensor data. It analyzes motion patterns, light levels, and temperature changes to determine occupancy status and environmental conditions.
+-  **Decision Logic**:
+Based on the processed sensor data, the system's decision-making logic determines whether a room is occupied, the level of lighting required, and the optimal temperature settings.
+-  **Control Commands**:
+Once the decision logic is applied, the system generates control commands. For example, if no motion is detected for a certain period, the system may send a command to turn off lights and adjust AC settings.
+-  **Device Communication**:
+The control commands are sent to IoT devices such as smart switches for lights and smart thermostats for ACs. These devices receive and execute the commands to control the lighting and temperature in the rooms.
+-  **User Interaction**:
+Users can interact with the system through a mobile app or other interfaces. They can override automatic controls, adjust schedules, or monitor energy consumption remotely.
+
+-  **Real-time Monitoring**:
+Users can monitor the real-time status of rooms through the user interface. They can see occupancy status, lighting levels, and temperature settings.
+As the number of IoT sensors increases or new rooms are added, the system's architecture should be designed to handle the growing volume of data and control commands.
 ## React Guide
 1. Extensions: Use .tsx extension for React components
 2. Filename: Use PascalCase for filenames. E.g., ReservationCard.tsx.
