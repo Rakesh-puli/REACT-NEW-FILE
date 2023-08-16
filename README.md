@@ -102,8 +102,8 @@ Background: `#ffffff`
 Text: `#FFFFFF`
 primary-font: `Suisse Intl`
 secondary-font: `monopolice`
-icons : https://react-icons.github.io/react-icons/
 ```
+icons : https://react-icons.github.io/react-icons/
 
 ## Technologies Used
 - React
