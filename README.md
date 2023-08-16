@@ -94,7 +94,8 @@ export default keycloak;
 - antd -for design purpose
 
 ## Folder structure   
-``src/
+```
+  src/
 |-- assets/
 |   |-- images/
 |   |-- styles/
@@ -136,7 +137,8 @@ export default keycloak;
 |   |-- api.ts
 |
 |-- App.tsx
-|-- index.tsx ``
+|-- index.tsx
+  ```
 
 
 
