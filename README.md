@@ -9,6 +9,10 @@ HelixSense is an innovative project that aims to revolutionize the way sensor co
 - [Usage](#Usage)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- React Guide
+Style Guide
+Folder Structure
+Application Architecture
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -74,13 +78,36 @@ export default keycloak;
 ## Usage
 
 
-### Features
+## Features
 
 - Customer registration and authentication through Keyclock
 - create the application 
 - create the sensor configuration 
 - create the sensor for each application
 - Finally generate the certificate with JSON formate
+## React Guide
+Extensions: Use .tsx extension for React components
+Filename: Use PascalCase for filenames. E.g., ReservationCard.tsx.
+Reference Naming: Use PascalCase for React components and camelCase for their instances.
+Component Naming: Use the filename as the component name. For example, ReservationCard.jsx should have a reference name of ReservationCard. However, for root components of a directory, use index.jsx as the filename and use the directory name as the component name
+Props Naming: Avoid using DOM component prop names for different purposes.
+Quotes: Always use double quotes (") for JSX attributes, but single quotes (') for all other JS
+
+
+## Style Guide 
+Primary: `#1A9EE0`
+
+Secondary: `#6C757D`
+
+Background: `#ffffff`
+
+Text: `#FFFFFF`
+
+primary-font: 'Suisse Intl';
+
+secondary-font: 'monopolice';
+
+icons : https://react-icons.github.io/react-icons/
 
 ## Technologies Used
 - React
@@ -88,7 +115,7 @@ export default keycloak;
 - State management (context API)
 - CSS frameworks (Material-UI)
 
-## Third Party packeages in React js
+### Third Party packeages in React js
 - node gyp - unzip the packeages 
 - Formik -  for form submission
 - antd -for design purpose
