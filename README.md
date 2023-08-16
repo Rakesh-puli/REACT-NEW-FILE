@@ -51,6 +51,10 @@ Copy code
 ```bin/standalone.sh
 This will start the Keycloak server.
 
+```python
+def greet(name):
+    return f"Hello, {name}!"
+
 Access Keycloak Admin Console: Open your web browser and navigate to http://localhost:8080/auth/admin. This is the Keycloak Admin Console where you will configure your realm, clients, roles, and more.
 
 ## Features
