@@ -41,15 +41,13 @@ Keycloak simplifies the process of adding authentication and authorization to yo
 
 ## Installation and Authentication Setup with Keycloak
 Download Keycloak: Visit the [Keycloak Download](https://www.keycloak.org/documentation.html) page and download the latest version of Keycloak.
-
 Extract Keycloak: Extract the downloaded archive to a directory of your choice.
-
 Start Keycloak: Navigate to the extracted directory and run Keycloak using the following command:
 Copy code
-bin/standalone.sh
+\```bin/standalone.sh
 This will start the Keycloak server.
 
-Access Keycloak Admin Console: Open your web browser and navigate to ## http://localhost:8080/auth/admin. This is the Keycloak Admin Console where you will configure your realm, clients, roles, and more.
+Access Keycloak Admin Console: Open your web browser and navigate to  http://localhost:8080/auth/admin. This is the Keycloak Admin Console where you will configure your realm, clients, roles, and more.
 
 ## Features
 
