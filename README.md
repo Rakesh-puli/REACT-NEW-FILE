@@ -86,7 +86,7 @@ configuration. Here's how you can configure sensors:
  • Configurations:
    The configurations section could include Sensor code and Sensor Type  can be configure for your application. 
  • Applications:
-   The applications section could involve displaying a list of installed applications, We can Create the application and  give access also. 
+   The applications section could involve displaying a list of installed applications, We can Create the application and  give access also.  
  • Sensors:
    In the sensors section, you might display list  sensors, their respective Applications. we can add the sensor for each application.
 
