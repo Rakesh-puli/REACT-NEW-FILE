@@ -77,7 +77,18 @@ Click Save.
    export default keycloak
     ```
 ## Usage
-
+1. The HelixSense user interface provides a user-friendly environment for sensor
+configuration. Here's how you can configure sensors:
+ • Log in to the HelixSense platform using your credentials.
+ • Customers:
+   This section might display a list of customers, their information, and possibly allow users to perform actions related to customers, such as viewing details 
+   or managing customer data.
+ • Configurations:
+   The configurations section could include Sensor code and Sensor Type  can be configure for your application. 
+ • Applications:
+   The applications section could involve displaying a list of installed applications, We can Create the application and  give access also. 
+ • Sensors:
+   In the sensors section, you might display list  sensors, their respective Applications. we can add the sensor for each application.
 
 ## Features
 
@@ -164,7 +175,7 @@ icons : https://react-icons.github.io/react-icons/
 |-- App.tsx
 |-- index.tsx
   ```
-Application Architecture
+## Application Architecture
 ![.](https://user-images.githubusercontent.com/111567733/259751506-8ddfa9b9-0335-49a2-8b41-6d5bfc362aed.png)
 
 
