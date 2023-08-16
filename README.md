@@ -11,7 +11,7 @@ HelixSense is an innovative project that aims to revolutionize the way sensor co
 - [Technologies Used](#technologies-used)
 - [React Guide](#React-guide)
 - [Style Guide](#Style-guide)
-- [Folder Structure] (#folder-structure)
+- [Folder Structure](#folder-structure)
 - [Application Architecture](#application-architecture)
 - [Contributing](#contributing)
 - [License](#license)
@@ -164,10 +164,9 @@ icons : https://react-icons.github.io/react-icons/
 
 
 ## Contributing
-Contributions to the Helix-sense are welcome! If you find any issues or have suggestions for improvements, please feel free to open issues or pull requests in this repository.
-When contributing, please follow the existing coding style and conventions, and provide detailed descriptions for your changes.
+Sai Rakesh Puli  : git - Rakesh-puli
 
  
 
 ## License
-This project is licensed under the MIT License.
+Sai Kumar Vasamsetti email:Rakesh.Puli@tynybay.com
