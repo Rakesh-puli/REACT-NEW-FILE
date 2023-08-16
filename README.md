@@ -1,6 +1,7 @@
 # Helix-sense Application
 
 ## Description 
+
 HelixSense is an innovative project that aims to revolutionize the way sensor configurations are implemented in electrical systems. In a rapidly advancing technological landscape, the need for efficient and intelligent solutions for managing electrical devices and systems is paramount.
 
 ## Table of Contents
