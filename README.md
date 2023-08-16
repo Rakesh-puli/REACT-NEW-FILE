@@ -165,7 +165,7 @@ icons : https://react-icons.github.io/react-icons/
 |-- index.tsx
   ```
 
-[https://user-images.githubusercontent.com/111567733/259751506-8ddfa9b9-0335-49a2-8b41-6d5bfc362aed.png]
+![https://user-images.githubusercontent.com/111567733/259751506-8ddfa9b9-0335-49a2-8b41-6d5bfc362aed.png]
 
 
 
