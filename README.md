@@ -18,10 +18,12 @@ HelixSense is an innovative project that aims to revolutionize the way sensor co
 
 ## Installation 
 1. Clone the repository to your local machine and install
-   ```bash
+   ```
+   bash
    git clone https://github.com/Helix-app-automation-organization/NEW_UI_Helix_app.git
    cd NEW_UI_Helix_app
    npm install
+   ```
 
  ## Introduction to Keycloak
 
@@ -64,16 +66,16 @@ Click Save.
 1. Install Required Packages: In your React project directory, install this package for integrating Keycloak:
 ``` npm install keycloak-js @react-keycloak/web. ```
 2. Create Keycloak Configuration: Create a file named keycloak.js in your project's source directory.
-   
-   `import Keycloak from 'keycloak-js'
+   ```
+   import Keycloak from 'keycloak-js'
    const keycloakConfig = {
-      url: 'YOUR_KEYCLOAK_REALM_URL',
-      realm: 'YOUR_REALM_NAME',
-      clientId: 'YOUR_CLIENT_ID',`
-
+      url: 'http://13.213.201.186:8080/auth/',
+      realm: 'Dashboard',
+      clientId: 'React-app',
 } 
 const keycloak = new Keycloak(keycloakConfig);
-export default keycloak;
+export default keycloak 
+```
 
 ## Usage
 
