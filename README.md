@@ -184,7 +184,7 @@ As the number of IoT sensors increases or new rooms are added, the system's arch
 |        |-- Dashboard.tsx
 |        |-- Dashboard.css
 |
-|    |-- Dashboard/
+|    |-- Sensor/
 |        |-- Sensor.tsx
 |        |-- sensor.css
 |
