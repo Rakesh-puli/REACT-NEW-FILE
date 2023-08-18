@@ -77,9 +77,10 @@ Click Save.
    export default keycloak
     ```
 ## Usage
+
   The HelixSense user interface provides a user-friendly environment for sensor
   configuration. Here's how you can configure sensors:
- -  Log in to the HelixSense platform using your credentials.
+ -  Log in to the keycloak login page using your keycloak credentials.
  -  **Customers**:
    This section might display a list of customers, their information, and possibly allow users to perform actions related to customers, such as viewing details 
    or managing customer data.
@@ -108,6 +109,21 @@ Users can interact with the system through a mobile app or other interfaces. The
 -  **Real-time Monitoring**:
 Users can monitor the real-time status of rooms through the user interface. They can see occupancy status, lighting levels, and temperature settings.
 As the number of IoT sensors increases or new rooms are added, the system's architecture should be designed to handle the growing volume of data and control commands.
+
+
+## Technologies Used
+- React
+- Keycloak 
+- React Router
+- State management (context API)
+- CSS frameworks (Material-UI)
+
+### Third Party packeages in React js
+- node gyp - unzip the packeages 
+- Formik -  for form submission & validation
+- antd -for design purpose
+
+
 ## React Guide
 1. Extensions: Use .tsx extension for React components
 2. Filename: Use PascalCase for filenames. E.g., ReservationCard.tsx.
@@ -126,17 +142,7 @@ As the number of IoT sensors increases or new rooms are added, the system's arch
 - secondary-font: `monopolice`
 - icons : https://react-icons.github.io/react-icons/
 
-## Technologies Used
-- React
-- Keycloak 
-- React Router
-- State management (context API)
-- CSS frameworks (Material-UI)
 
-### Third Party packeages in React js
-- node gyp - unzip the packeages 
-- Formik -  for form submission & validation
-- antd -for design purpose
 
 ## Folder structure   
 ```
@@ -178,11 +184,16 @@ As the number of IoT sensors increases or new rooms are added, the system's arch
 |        |-- Dashboard.tsx
 |        |-- Dashboard.css
 |
+|    |-- Dashboard/
+|        |-- Sensor.tsx
+|        |-- sensor.css
+|
 |-- utils/
 |   |-- api.ts
 |
 |-- App.tsx
 |-- index.tsx
+|-- keycloak.js
   ```
 ## Application Architecture
 ![.](https://user-images.githubusercontent.com/111567733/259751506-8ddfa9b9-0335-49a2-8b41-6d5bfc362aed.png)
