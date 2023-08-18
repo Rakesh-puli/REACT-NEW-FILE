@@ -8,7 +8,7 @@ HelixSense is an innovative project that aims to revolutionize the way sensor co
 - [Installation](#installation)
 - [Usage](#Usage)
 - [Features](#features)
-- [Technologies Used](#technologies-used)
+- [Technologies Used](#technologies-used.
 - [React Guide](#React-guide)
 - [Style Guide](#Style-guide)
 - [Folder Structure](#folder-structure)
